@@ -5,6 +5,8 @@
   cost-per-favor ranking.
 - Crate tooltips (bags, AH) show the empty crate's price and the total when the crate price is counted, so
   cost per favor can be checked by hand.
+- "Add the empty crate's AH price" is now on by default for new installs: a looted crate could be sold, so its
+  AH price is part of what filling it costs. Existing settings are kept.
 
 ## 1.6.1
 - Fixed Artisan Ore pricing: Dark Iron Ore now uses the item sold on the Auction House (11370) instead of a

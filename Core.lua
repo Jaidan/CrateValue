@@ -20,7 +20,7 @@ end
 
 local DEFAULTS = {
   source = "auto",          -- auto | auctionator | tsm | scan
-  includeCrateCost = false, -- add the Waylaid Crate's own AH price (for when you'd buy the crate)
+  includeCrateCost = true,  -- add the Waylaid Crate's own AH price (a looted crate could be sold instead)
   onlyOwned = false,
   tier = "All",
   sortKey = "perFavor",
